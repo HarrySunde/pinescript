@@ -1,0 +1,2 @@
+# pinescript
+learning some pinescript
