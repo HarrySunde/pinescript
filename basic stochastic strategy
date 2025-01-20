@@ -1,6 +1,6 @@
 //@version=5 
 strategy( title="Harrys testing Strategy", shorttitle="Stoch Risk", format=format.price, precision=2, overlay=true, initial_capital=100000 )
-
+// strategy works best with volatile pairs, backtesting on inj/usdt pairs on trading view (injective protocol) yeilded most profit on 15-30 minuite timeframes
 
 // Inputs
 periodK = input.int(14, title="%K Length", minval=1)
